@@ -1,0 +1,83 @@
+body {
+/*   font-family: "Open Sans", helvetica, arial, sans-serif; */
+  font-family: 'Crimson Text', serif;
+  margin: 10vw;
+  display: center;
+  text-align: center;
+/*   padding: 5px;  */
+}
+
+h1 {
+  color: #3217ff;
+  font-family: 'Amiri', serif;
+  
+}
+
+h2 {
+  color: red;
+}
+
+.social{
+  padding:10px;
+}
+
+.social: hover{
+  color:grey;
+}
+
+/* 
+.right{
+  
+} */
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden; /* Hide overflow */
+   flex: 30%; /* Set the width of the sidebar */
+/*   background-color: #f1f1f1; Grey background color */
+  padding: 20px; /* Some padding */
+/*   background-color: #333; /* Dark background color */
+  width:10%;
+  float:left;
+  position: fixed;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float:left;/* Make sure that the links stay side-by-side */
+  display: block; /* Change the display to block, for responsive reasons */
+  color: red; /* White text color */
+  text-align: center; /* Center the text */
+  padding: 10px 20px; /* Add some padding */
+  text-decoration: none; /* Remove underline */
+  flex:10%;
+  
+}
+
+/* Right-aligned link */
+/* .navbar a.right {
+  float: right; /* Float a link to the right */
+/* }  */
+
+/* Change color on hover/mouse-over */
+.navbar a:hover {
+/*   background-color: blue;  */
+  color: blue; /* Black text color */
+}
+
+.right{
+  flex: 90%; /* Set the width of the main content */
+  background-color: white; /* White background color */
+  padding: 5px; /* Some padding */
+  float:right;
+  width:80%;
+/*   height:20%; */
+  overflow: auto;
+}
+
+.grid-container {
+  display: inline-grid;
+  display: grid;
+  grid-gap: 50px;
+
+}
