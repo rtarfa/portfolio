@@ -1,0 +1,83 @@
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  body {
+    width: 60vw;
+  }
+  header {
+    height: 10vh;
+  }
+  .intro {
+    height: 5vh;
+  }
+  .main {
+    display: flex;
+/*     flex-direction: column; */
+    height: 70vh;
+    width: 30vw;
+  }
+  img {
+    width: auto;
+    height: 40vh;
+    margin: 6vh 0;
+  }
+  .right{
+    width: 46vw;
+    display: auto;
+    flex-direction: column;
+  }
+  .left{
+    text-align: left;
+   position:absolute;    
+    left:50px;
+    top:50px;
+    width:80vw;
+  }
+  .social {
+    width: 96vw;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  body {
+    width: 40vw;
+    margin: 0 auto;
+  }
+
+  header {
+    height: 12vh;
+  }
+
+  header p {
+    font-size: 10vh;
+  }
+  
+  img {
+    width: 30vw;
+    height: auto;
+  }
+
+  .intro {
+    height: 12vh;
+  }
+
+  .main {
+    height: 70vh;
+    width: 10vw;
+/*     70% view height.. 70% as tall as user's browser */
+    display:flex; 
+/*     ^flex- is value, each element squeezes next to the one before it */
+    justify-content: space-around; 
+/*     ^tells browser how much space between elements on same line */
+/*     space-around is value that puts equal space around all elements */
+  }
+
+  .social {
+    width: 40vw;
+    display: flex;
+    justify-content: space-around;
+    height: 40vh;
+    margin:auto;
+  }
+}
+
